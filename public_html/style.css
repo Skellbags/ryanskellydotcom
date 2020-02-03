@@ -1,0 +1,270 @@
+h1, h2, h3, h4, h5, h6, p{
+	margin:0px;
+}
+#nav{
+	position:sticky;
+	background-color:#ffffff;
+	top:0;
+	z-index:1;
+}
+.as04 #nav{
+	position:sticky;
+	background-color:rgba(10, 10, 10, 0.5);
+	top:0;
+	z-index:1;
+}
+.as04{
+	background-image:url(Images/d2-banner.jpg);
+	background-size:cover;
+}
+.as04 > body{
+	background-color:rgba(100, 100, 100, 0.5);
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+	width:80%;
+	margin:0px auto;
+	padding:40px 60px;
+	font-size:20pt;
+}
+.as04 #nav, .as04 #body{
+	border-bottom:1px solid #FFFFFF;
+	padding:0px 0px;
+	margin-bottom:30px;
+}
+.as04 a:link{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.as04 a:visited{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.as04 a:hover{
+	text-decoration:underline;
+	color:#FF0000;
+}
+.brawl_stars #nav{
+	position:sticky;
+	background-color:rgba(10, 10, 10, 0.5);
+	top:0;
+	z-index:1;
+}
+.brawl_stars{
+	background-image:url(Images/brawl-stars-png-bg.jpg);
+	background-size:cover;
+}
+.brawl_stars > body{
+	background-color:rgba(100, 100, 100, 0.5);
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+	width:80%;
+	margin:0px auto;
+	padding:40px 60px;
+	font-size:20pt;
+}
+.brawl_stars #nav, .brawl_stars #body{
+	border-bottom:1px solid #FFFFFF;
+	padding:0px 0px;
+	margin-bottom:30px;
+}
+.brawl_stars a:link{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.brawl_stars a:visited{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.brawl_stars a:hover{
+	text-decoration:underline;
+	color:#FF0000;
+}
+.dark #nav{
+	position:sticky;
+	background-color:rgba(10, 10, 10, 0.5);
+	top:0;
+	z-index:1;
+}
+.dark{
+	background-image:url(Images/dark_bg.jpg);
+	background-size:cover;
+}
+.dark > body{
+	background-color:rgba(100, 100, 100, 0.5);
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+	width:80%;
+	margin:0px auto;
+	padding:40px 60px;
+	font-size:20pt;
+}
+.dark #nav, .dark #body{
+	border-bottom:1px solid #FFFFFF;
+	padding:0px 0px;
+	margin-bottom:30px;
+}
+.dark a:link{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.dark a:visited{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.dark a:hover{
+	text-decoration:underline;
+	color:#FF0000;
+}
+html{
+	background-color:#ff7f7f;
+	position:absolute;
+}
+body{
+	background-color:#FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	color:#000000;
+	width:80%;
+	margin:0px auto;
+	padding:40px 60px;
+	font-size:20pt;
+}
+#nav, #body{
+	border-bottom:1px solid #000000;
+	padding:0px 0px;
+	margin-bottom:30px;
+}
+#footer{
+	padding:10px 0px;
+	font-size:20px;
+	position: relative;
+	bottom: 10px;
+}
+#header, #nav, #footer{
+	text-align:center;
+}
+a:link{
+	text-decoration:none;
+	color:#000000;
+}
+a:visited{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover{
+	text-decoration:underline;
+	color:red;
+}
+#nav li{
+	display:inline;
+	padding:25px;
+	font-size:20px;
+}
+.title{
+	text-align:center;
+	font-size:90px;
+	font-family: 'Staatliches', cursive;
+	position: relative;
+	bottom: 10px;
+}
+.subtitle{
+	text-decoration:underline;
+	font-family: 'Staatliches', cursive;
+}
+.titlepic{
+	text-align:center;
+} 
+.headerandtext{
+	padding-bottom:40px;
+}
+.title2{
+	font-family: 'Staatliches', cursive;
+	text-align:center;
+}
+.titlepic > img{
+	width:30%;
+	height:30%;
+}
+.makermark{
+	margin-top:-15px;
+	width:5%;
+	height:5%;
+	float:right;
+}
+.grid1col2{
+	clear:left;
+	width:50%;
+}
+.grid1col1, .grid1col2, .phone{
+	text-align:center;
+	border-bottom:1px solid #000000;
+	padding:10px;
+}
+.grid1col1{
+    float:right;
+	width:50%;
+}
+.grid1{
+    display:inline;
+	padding-bottom:10px;
+}
+.hover{
+	position:fixed;
+	left:0;
+	top:0;
+	color:#f07070;
+}
+.exlink{
+	text-align:center;
+	padding-left:30px;
+	padding-right:30px;
+}
+.flex{
+	display:flex;
+	justify-content:center;
+}
+.w100{
+    width:100%;
+    
+}
+tr th{
+    width:40%;
+}
+form{
+	width: 60%;
+    margin: 0 auto;
+}
+form input{
+	width:100%;
+}
+.justify{
+	vertical-align:top;
+	padding-bottom:40px;
+}
+table{
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+.cent{
+	text-align:center;
+}
+.t1{
+	table-layout: fixed;
+	width:100%;
+}
+.t1 td{
+	width:25%;
+}
+.twidth{
+	word-wrap: break-word
+}
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    height: 200px;
+}
